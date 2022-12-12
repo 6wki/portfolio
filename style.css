@@ -889,4 +889,8 @@ nav ul li:hover img {
     nav ul li p::after {
         display: none;
     }
+	
+    .infomain p:nth-child(4) {
+	    text-align: center;
+    }
 }
