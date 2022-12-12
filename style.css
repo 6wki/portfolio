@@ -881,7 +881,7 @@ nav ul li:hover img {
         left: 0;
     }
 
-    nav ul li:hover p {
+    nav ul li p {
         display: none;
     }
 
