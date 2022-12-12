@@ -882,8 +882,7 @@ nav ul li:hover img {
     }
 
     nav ul li:hover p {
-        left: 0;
-        top: 4.5rem;
+        display: none;
     }
 
     nav ul li p::after {
