@@ -128,6 +128,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .logo img {
@@ -144,7 +145,7 @@ nav {
     }
 
     10% {
-        bottom: .5rem;
+        bottom: 0;
         opacity: 1;
     }
 
@@ -174,7 +175,7 @@ nav {
 
     80% {
         opacity: 1;
-        bottom: .5rem;
+        bottom: 0;
     }
 
     100% {
@@ -817,7 +818,6 @@ nav ul li:hover img {
         right: 0;
         width: 100%;
         height: 4rem;
-        overflow: hidden;
     }
 
     nav ul {
@@ -826,6 +826,7 @@ nav ul li:hover img {
 
     .logo {
         left: .5rem;
+        height: 100%;
     }
 
     .infomain {
@@ -873,6 +874,19 @@ nav ul li:hover img {
     }
 
     #blop {
+        display: none;
+    }
+
+    nav ul li p {
+        left: 0;
+    }
+
+    nav ul li:hover p {
+        left: 0;
+        top: 4.5rem;
+    }
+
+    nav ul li p::after {
         display: none;
     }
 }
