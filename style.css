@@ -707,7 +707,6 @@ nav ul li:hover img {
 .projects {
     width: 100%;
     height: 70%;
-    overflow: auto;
     gap: 1rem;
     padding: 2rem;
     display: grid;
